@@ -11,7 +11,7 @@
 	<ul>
 		<li><a href="/data">Data</a> OJ Submissions</li>
 		<li>
-			<a data-sveltekit-reload href="/logout" class="link">Log Out</a>
+			<a href="/logout" class="link">Log Out</a>
 		</li>
 	</ul>
 </section>
