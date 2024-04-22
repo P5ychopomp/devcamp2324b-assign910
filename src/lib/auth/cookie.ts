@@ -4,21 +4,8 @@ import bcrypt from 'bcrypt';
 import { createUser, getUsers, setToken } from '$lib/db';
 import { seed_user } from './seed';
 
-let loginAttempts = 5;
-
 export function attemptCounter(match) {
-	if (!match) {
-		if (loginAttempts <= 1) {
-			loginAttempts = 5;
-			throw new Error(`Kaboom!`);
-		}
-		loginAttempts--;
-		return err(
-			new Error(
-				`Password incorrect, ${loginAttempts} ${loginAttempts === 1 ? 'attempt' : 'attempts'} remaining`
-			)
-		);
-	}
+	/* Put your code here. DO NOT REMOVE THE return */
 	return;
 }
 
