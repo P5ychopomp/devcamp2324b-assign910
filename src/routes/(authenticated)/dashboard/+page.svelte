@@ -9,7 +9,7 @@
 	<h1>Dashboard</h1>
 	<p>🎉 Hello there <strong>{data.user?.username}</strong>, you're logged in!</p>
 	<ul>
-		<li><a data-sveltekit-preload-data href="/data">Data</a> OJ Submissions</li>
+		<li><a href="/data">Data</a> OJ Submissions</li>
 		<li>
 			<a data-sveltekit-reload href="/logout" class="link">Log Out</a>
 		</li>
