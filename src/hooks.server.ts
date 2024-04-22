@@ -20,9 +20,3 @@ export const handle: Handle = async ({ event, resolve }) => {
 
 	return resolve(event);
 };
-
-export const handleError: Handle = () => {
-	return {
-		message: 'Kaboom!',
-	};
-}
