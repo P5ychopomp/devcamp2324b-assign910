@@ -1,8 +1,6 @@
-import { env } from '$env/dynamic/private';
-
 export const seed_user: User = {
 	id: 0,
 	username: 'upcsi',
-	password: env.PASSWORD,
+	password: 'iWryXeat9EQmB/zvKhd/5g==',
 	token: ''
 };
