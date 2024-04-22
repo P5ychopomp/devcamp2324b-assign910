@@ -5,45 +5,32 @@ import { getUser } from '$lib/db';
 import type { Actions } from './$types';
 
 export function _usernameRequired(username) {
-	if (!username) return fail(422, { error: 'A username is required.' });
+	/* Put your code here. DO NOT REMOVE THE return */
 	return;
 }
 
 export function _passwordRequired(password) {
-	if (!password) return fail(422, { error: 'A password is required.' });
+	/* Put your code here. DO NOT REMOVE THE return */
 	return;
 }
 
 export function _passwordLength(password) {
-	if (password.length < 8)
-		return fail(422, {
-			error: 'Password must be at least 8 characters long.'
-		});
+	/* Put your code here. DO NOT REMOVE THE return */
 	return;
 }
 
 export function _passwordMatch(password, password_confirm) {
-	if (password !== password_confirm)
-		return fail(422, {
-			error: 'Your password must match.'
-		});
+	/* Put your code here. DO NOT REMOVE THE return */
 	return;
 }
 
 export function _passwordComplexity(containsUppercase, containsNumber, containsSpecialCharacter) {
-	if (!containsUppercase && !containsNumber && !containsSpecialCharacter)
-		return fail(422, {
-			error:
-				'Your password must contain at least one special character, one number, and one uppercase letter.'
-		});
+	/* Put your code here. DO NOT REMOVE THE return */
 	return;
 }
 
 export async function _userExists(username) {
-	if (await getUser(username))
-		return fail(422, {
-			error: 'User already exists.'
-		});
+	/* Put your code here. DO NOT REMOVE THE return */
 	return;
 }
 
