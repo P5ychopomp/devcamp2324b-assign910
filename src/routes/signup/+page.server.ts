@@ -1,7 +1,6 @@
 import { auth } from '$lib/auth';
 import { AUTH_TOKEN_EXPIRY_SECONDS } from '$lib/constants.server';
 import { fail } from '@sveltejs/kit';
-import { getUser } from '$lib/db';
 import type { Actions } from './$types';
 
 export function _usernameRequired(username) {
