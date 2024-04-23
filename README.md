@@ -29,7 +29,7 @@ In this assignment, you will be working on improving the error handling, impleme
 
 3. **[10 PTS] Reloading :** Clicking the `Logout` link located in the `Dashboard` page after logging in does not log the user out completely. Fix this security issue.
 
-4. **[10 PTS] Hardcoded User Password:** The password for the `seed_user` is not secure. Please address this security vulnerability.
+4. **[10 PTS] Hardcoded User Password:** The password for the `seed_user` is not secure. Please address this security vulnerability. Note that the web app needs to run in order to access the environment variables.
 
 Edit `signup/+page.server.ts` such that:
 
