@@ -17,7 +17,7 @@ In this assignment, you will be working on improving the error handling, impleme
 8. You may use the user credentials provided below to login.
 
 ```
-    username: upcsi
+	username: upcsi
 	password: iWryXeat9EQmB/zvKhd/5g==
 ```
 
